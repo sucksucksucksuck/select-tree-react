@@ -16,29 +16,24 @@ const admin_group = [{
         "id":2,
         "pid":1,
         "title":"林宅",
-        "type":"2",
         "son":[
             {"id":3,
             "pid":2,
             "title":
             "林大爷",
-            "type":"2",
             "son":[
                 {"id":4,
                 "pid":3,
                 "title":"林爸爸",
-                "type":"2",
                 "son":[
                     {"id":9,
                     "pid":4,
                     "title":"儿子",
-                    "type":"2",
                     "son":[]
                     },
                     {"id":10,
                     "pid":4,
                     "title":"女儿",
-                    "type":"2",
                     "son":[]
                     }]
                 }
