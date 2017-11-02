@@ -2,7 +2,7 @@
 ![image](https://github.com/sucksucksucksuck/select-tree-react/blob/master/chain.png)
 
 ## 使用范例：
-*首先把该组件引入到项目
+* 首先把该组件引入到项目
 ```javascript
 <SelectTree defaultValue={this.state.search.group_id} admin_group={this.state.admin_group} defaultTitle="全部角色"/>
 ```
@@ -31,13 +31,13 @@ const admin_group = [{
                 "son":[
                     {"id":9,
                     "pid":4,
-                    "title":"son",
+                    "title":"儿子",
                     "type":"2",
                     "son":[]
                     },
                     {"id":10,
                     "pid":4,
-                    "title":"dau",
+                    "title":"女儿",
                     "type":"2",
                     "son":[]
                     }]
@@ -47,3 +47,5 @@ const admin_group = [{
     ]
 }]
 ```
+#### defaultTitle
+单选框第一个选项
