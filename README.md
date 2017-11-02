@@ -4,7 +4,10 @@
 ## 使用范例：
 * 首先把该组件引入到项目
 ```javascript
-<SelectTree defaultValue={this.state.search.group_id} admin_group={this.state.admin_group} defaultTitle="全部角色"/>
+<SelectTree 
+    defaultValue={this.state.search.group_id} 
+    admin_group={this.state.admin_group} 
+    defaultTitle="全部角色"/>
 ```
 #### defaultValue
 默认值 => 可以为一个变量
