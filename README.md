@@ -6,7 +6,7 @@
 ```javascript
 <SelectTree 
     defaultValue={this.state.search.group_id} 
-    admin_group={this.state.admin_group} 
+    admin_group={admin_group} 
     defaultTitle="全部角色"/>
 ```
 #### defaultValue
